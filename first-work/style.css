@@ -1,0 +1,85 @@
+html{
+    font-size: 10px;
+}
+
+/* 设置背景图片，响应式*/
+.background-image{
+    margin: 0;
+    padding: 0;
+    background-image: url(book-2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/*居中*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+    opacity: 0.7;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem white;
+    width: 300px;
+    color: azure;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0 2rem 0;
+    display: inline-block;
+    border: 0.1rem solid gainsboro;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #6b6fe1;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border: none;
+    width: 100%;
+}
+
+/*提交时给出反应*/
+button:hover {
+    opacity: 0.5;
+}
+
+.low{
+    font-size: 1.5rem;
+}
+
+a {
+    color: palegreen;
+    text-decoration: none;
+}

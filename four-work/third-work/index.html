@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子布局示例</title>
+    <link href="style2.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="big-box">
+        <div class="small-box">
+            <h2>Start Reading </h2>
+            <form id="loginForm">
+                <label for="loginUsername">
+                    <p class="bold">用户名</p>
+                </label>
+                <input type="text" placeholder="输入用户名" id="loginUsername" required>
+
+                <label for="loginPassword">
+                    <p class="bold">密码</p>
+                </label>
+                <input type="password" placeholder="输入密码" id="loginPassword" required>
+
+                <button type="submit">登录</button>
+                <p class="low">还没有账号？ <button type="button" id="left">注册</button></a></p>
+            </form>
+        </div>
+
+        <div class="small-box">
+            <h2>Let's Start</h2>
+            <form id="registerForm">
+                <label for="regUsername">
+                    <p class="bold">用户名</p>
+                </label>
+                <input type="text" placeholder="输入用户名" id="regUsername" required>
+
+                <label for="regPassword">
+                    <p class="bold">密码</p>
+                </label>
+                <input type="password" placeholder="输入密码" id="regPassword" required>
+
+                <button type="submit">注册</button>
+                <p class="low">已有账号？ <button type="button" id="right">登录</button></p>
+            </form>
+        </div>
+
+        <div class="small-box">
+            <h1>Looking Forward for You</h1>
+            <img src="left.jpg">
+        </div>
+
+        <div class="small-box">
+            <h1>Welcome to Join us</h1>
+            <img src="right.jpg">
+        </div>
+        <div id="message"></div>
+
+    </div>
+    <script src="style.js"></script>
+
+</html>

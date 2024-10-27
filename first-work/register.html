@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link href="style.css"  rel="stylesheet">
+</head>
+<body class="background-image">
+    <div class="container">
+        <h2>Let's Start</h2>
+        <form action="/submit-register" method="post">
+            <label for="username"><p class="bold">用户名</p></label>
+            <input type="text" placeholder="输入用户名" name="username" required>
+
+            <label for="password"><p class="bold">密码</p></label>
+            <input type="password" placeholder="输入密码" name="password" required>
+
+            <label for="confirm_password"><p class="bold">确认密码</p></label>
+            <input type="password" placeholder="再次输入密码" name="confirm_password" required>
+
+            <button type="submit">注册</button>
+            <p class="low">已有账号？ <a href="log-in.html">登录</a></p>
+        </form>
+    </div>
+</body>
+</html>

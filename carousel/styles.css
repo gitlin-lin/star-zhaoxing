@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom right,
+            #91defe, #99c0f9, #bdb6ec, #d7b3e3, #efb3d5, #f9bccc);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.prev {
+    background: #99bff9;
+    width: 50px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    padding: right 10px;
+    /*position: absolute;
+    left: 15px;
+    top: 45%;*/
+    cursor: pointer;
+}
+
+.next {
+    background: #efb3d5;
+    width: 50px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    /*position: absolute;
+    right: 55px;
+    top: 45%;*/
+    cursor: pointer;
+}
+
+.container {
+    width: 1000px;
+    height: 650px;
+    /*6520=600+50,50为底部按钮余留都空间*/
+    overflow: hidden;
+
+}
+
+/*#imglist {
+    width:5000px;
+    height: 600px;
+}
+
+#imglist img {
+    width: 1000px;
+    height: 600px;
+}
+
+#imglist li {
+    float: left;
+}*/
+
+
+.imglist {
+    width: 5000px;
+    height: 600px;
+}
+
+.imglist img {
+    width: 1000px;
+    height: 600px;
+}
+
+.imglist li {
+    float: left;
+}
+
+#icolist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#icolist li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #99c0f9;
+    text-align: center;
+    justify-items: center;
+    color: white;
+}
